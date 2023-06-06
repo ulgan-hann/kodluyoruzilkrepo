@@ -11,21 +11,22 @@
 
 Verilerin Insertion Sort aşamaları:
 
-[22, 27, 16, 2, 18, 6]
-[22, 27, 16, 2, 18, 6]
-[16, 22, 27, 2, 18, 6]
-[2, 16, 22, 27, 18, 6]
-[2, 16, 18, 22, 27, 6]
-[2, 6, 16, 18, 22, 27]<br>
-Dizi Insertion Sort algoritması ile sıralandıktan sonra [2, 6, 16, 18, 22, 27] haline gelir. Insertion Sort'un Big-O gösterimi: O(n^2)<br>
-18 sayısının dizi içerisindeki pozisyonuna bakacak olursak, sıralandıktan sonra [2, 6, 16, 18, 22, 27] haline gelir. 18 sayısı, dizi içinde ortada bulunmaktadır. Bu durum, average(ortalama) case kapsamına girer.
-	<br>
-Selection Sort'a göre ilk 4 adım:
+Adım 1: [22, 27, 16, 2, 18, 6]
+Adım 2: [22, 27, 16, 2, 18, 6]
+Adım 3: [16, 22, 27, 2, 18, 6]
+Adım 4: [2, 16, 22, 27, 18, 6]
+Adım 5: [2, 16, 18, 22, 27, 6]
+Adım 6: [2, 6, 16, 18, 22, 27]<br>
+Big-O gösterimi: Insertion Sort'un en kötü durum zaman karmaşıklığı O(n^2) olarak ifade edilir.<br>
+Time Complexity:
+Dizi sıralandıktan sonra 18 sayısı, average case kapsamına girer. Çünkü average case'de aradığımız sayının ortada olması durumunda sıralama işlemi daha hızlı tamamlanır ve 18 sayısı ortada yer aldığı için daha az adım gerektirir.<br>
+<br>
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort'a göre ilk 4 adımı şu şekildedir:
 
-[2, 3, 5, 8, 7, 9, 4, 15, 6]
-[2, 3, 4, 8, 7, 9, 5, 15, 6]
-[2, 3, 4, 5, 7, 9, 8, 15, 6]
-[2, 3, 4, 5, 6, 9, 8, 15, 7] şeklinde ifade edilir.
+Adım 1: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+Adım 2: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+Adım 3: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+Adım 4: [2, 3, 4, 5, 7, 9, 8, 15, 6]
 </body>
 </html>
 	
